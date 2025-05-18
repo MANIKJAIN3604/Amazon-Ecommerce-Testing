@@ -1,25 +1,51 @@
-# Amazon ECommerce Automation
+# 🛒 Amazon ECommerce Automation
 
-1.Automated testing for Amazon website
-2.Covered functions: Login, Add to Cart, Buy Product,Search Product, Logout
-3.Utilized Page Object Model (POM) with Selenium
-4.WebDriver and TestNG for comprehensive test scripts.
-5.Employed Data-Driven Testing (DDT) from Excel sheets for fetching data.
-6.Ensured reliability and efficiency and Generateddetailed test reports for analysis
+## 📄 Description
 
-## Overview
+An automation testing framework for the Amazon website that covers:
 
-This is an automation test framework for Amazon ECommerce. It covers essential test cases such as adding/removing products from the cart, searching for products, viewing product details, and testing the checkout flow.
+1. Automated testing for key user flows on Amazon.
+2. Functions covered: **Login**, **Search Product**, **Add to Cart**, **Buy Product**, and **Logout**.
+3. Implements the **Page Object Model (POM)** design pattern using **Selenium WebDriver**.
+4. Uses **TestNG** for managing and executing test cases.
+5. Supports **Data-Driven Testing (DDT)** with data fetched from Excel files using **Apache POI**.
+6. Ensures reliability and efficiency with detailed test reporting for analysis.
 
-## Installation
+---
 
-### Prerequisites:
+## 🌐 Overview
+
+This is a robust automation test framework for Amazon ECommerce. It covers essential scenarios such as:
+
+- Adding/removing products from the cart  
+- Searching for products  
+- Viewing product details  
+- Testing the checkout flow  
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology           | Purpose                                        |
+|----------------------|------------------------------------------------|
+| **Java**             | Core programming language                      |
+| **Maven**            | Project and dependency management              |
+| **Selenium WebDriver** | Browser automation and UI testing           |
+| **TestNG**           | Testing framework for writing and executing tests |
+| **Apache POI**       | Reading and writing Excel files (for test data) |
+| **Custom Module** (`Automationmaven1`) | Reusable components/utilities |
+
+---
+
+## 🚀 Installation
+
+### ✅ Prerequisites
 
 - Java 8 or above
 - Maven
-- WebDriver (e.g., ChromeDriver)
+- WebDriver (e.g., ChromeDriver) installed and added to system PATH
 
-### Setup:
+### 📦 Setup
 
 1. Clone the repository:
 
